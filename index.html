@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🎵 Music Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎧 Music Explorer</h1>
+      <p>Search, filter, play & add songs to your playlist</p>
+    </header>
+
+    <section class="controls">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by title or artist..."
+      />
+      <button id="searchBtn">🔍 Search</button>
+      <input type="text" id="filterInput" placeholder="Filter by artist..." />
+      <button id="toggleThemeBtn">🌙 Toggle Theme</button>
+    </section>
+
+    <section id="resultsContainer" class="results"></section>
+
+    <section id="playlistSection">
+      <h2>🎶 Playlist</h2>
+      <textarea
+        id="playlistInput"
+        readonly
+        placeholder="Your playlist will appear here..."
+      ></textarea>
+    </section>
+
+    <!-- Global audio player -->
+    <audio id="audioPlayer" controls></audio>
+
+    <script src="index.js"></script>
+  </body>
+</html>

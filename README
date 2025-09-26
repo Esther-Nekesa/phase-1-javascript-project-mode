@@ -1,0 +1,116 @@
+# 🎵 Deezer Music Explorer
+
+A simple web app to search, preview, and manage music tracks using a **local JSON server**.  
+Built with **HTML, CSS, and JavaScript**.
+
+---
+
+ <!-- Features -->
+
+- 🔍 Search songs by title or artist.
+- 🎼 Filter results by artist name.
+- ▶ Preview and play songs with a global audio player.
+- ❤️ Add tracks to a playlist section.
+- 🌙 Toggle between **Dark / Light mode** (background image remains intact).
+- 🎨 Responsive layout with custom styling.
+
+---
+
+<!-- Project Structure -->
+
+.
+├── index.html # Main HTML file
+├── style.css # Styling (light/dark themes, layout, etc.)
+├── index.js # JavaScript logic (fetch, search, filter, playlist, theme toggle)
+├── db.json # Local JSON database of songs
+├── music/ # Folder for local mp3 files
+│ ├── alone.mp3
+│ ├── commas.mp3
+│ └── ...
+└── images/ # Folder for cover images
+├── brettyoung.jpg
+├── inauma.jpg
+└── ...
+
+ <!-- Example db.json -->
+
+``json
+{
+"songs": [
+{
+"id": 1,
+"title": "alone",
+"artist": "Alan Walker",
+"album": "Divide",
+"preview": "music/alone.mp3",
+"cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
+},
+{
+"id": 2,
+"title": "commas",
+"artist": "Ayra Star",
+"album": "21",
+"preview": "music/commas.mp3",
+"cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Ayra Star_-_21.png"
+},
+{
+"id": 9,
+"title": "incaseyoudidntknow",
+"artist": "Brett Young",
+"album": "Brett Young",
+"preview": "music/incaseyoudidntknow.mp3",
+"cover": "images/brettyoung.jpg"
+}
+]
+}
+
+<!-- Setup & Run -->
+
+️- Install JSON Server
+-npm install -g json-server
+
+️-Run JSON Server
+-json-server --watch db.json --port 3000
+
+The API will now be available at:
+
+<!-- http://localhost:3000/songs -->
+
+- Open in Browser
+
+Just open index.html in your browser.
+
+<!-- Usage -->
+
+Enter a search term (song title / artist) → click Search.
+
+Use Filter Results to narrow down by artist name.
+
+Click ▶ Play to listen to a preview.
+
+Click ➕ Add to save the track into your playlist.
+
+Toggle between 🌙 Dark / ☀️ Light mode (background image remains).
+
+<!-- Notes -->
+
+Make sure your music/ and images/ folders exist and match the paths in db.json.
+
+If a track does not play, check the preview path or use a valid external .mp3 URL.
+
+Ports: Default is 3000, but you can change it:
+
+<!-- Tech Stack -->
+
+HTML5
+
+CSS3
+
+JavaScript (ES6+)
+
+JSON Server
+
+<!-- License -->
+
+This project is for learning/demo purposes only.
+All rights to songs and covers belong to their respective artists.

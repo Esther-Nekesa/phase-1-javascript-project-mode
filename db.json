@@ -1,0 +1,86 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "alone",
+      "artist": "Alan Walker",
+      "album": "Divide",
+      "preview": "music/alone.mp3",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
+    },
+    {
+      "id": 2,
+      "title": "commas",
+      "artist": "Ayra Star",
+      "album": "21",
+      "preview": "music/commas.mp3",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Ayra Star_-_21.png"
+    },
+
+    {
+      "id": 3,
+      "title": "healing_energy",
+      "artist": "Chris Brown",
+      "album": "Future Nostalgia",
+      "preview": "music/healing_energy.mp3",
+      "cover": "images/levitating.jpg"
+    },
+    {
+      "id": 4,
+      "title": "sabrina",
+      "artist": "Alan Walker",
+      "album": "Justice",
+      "preview": "music/sabrina.mp3",
+      "cover": "images/peaches.jpg"
+    },
+    {
+      "id": 5,
+      "title": "love_me_like_you_do",
+      "artist": "Ellie Goudling",
+      "preview": "music/love_me_like_you_do.mp3",
+      "cover": "images/peaches.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "inauma",
+      "artist": "Bien",
+      "album": "Single",
+      "preview": "music/inauma.mp3",
+      "cover": "images/inauma.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Do you care",
+      "artist": "Unknown",
+      "album": "Single",
+      "preview": "music/Do you care.mp3",
+      "cover": "images/do_you_care.jpg"
+    },
+    {
+      "id": 8,
+      "title": "halo",
+      "artist": "Beyoncé",
+      "album": "I Am... Sasha Fierce",
+      "preview": "music/halo.mp3",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/0/03/Beyonce_Halo.png"
+    },
+    {
+      "id": 19,
+      "title": "hit_run_ft_masika",
+      "artist": "Masika",
+      "album": "Single",
+      "preview": "music/hit_run_ft_masika.mp3",
+      "cover": "images/hit_run_ft.jpg"
+    },
+
+    {
+      "id": 1,
+      "title": "incaseyoudidntknow",
+      "artist": "Brett Young",
+      "album": "Brett Young",
+      "preview": "music/incaseyoudidntknow.mp3",
+      "cover": "images/brettyoung.jpg"
+    }
+  ]
+}
